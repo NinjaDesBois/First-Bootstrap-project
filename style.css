@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Mali', cursive;
+}
+
+section>div>h1 {
+    height: 50px;
+    width: 300px;
+    margin-top: 0%;
+}
+
+.section1 {
+    background-image: url(./img/img/pageBcg/bannerBcg.jpeg);
+    background-position-y: 80%;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.section2 {
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./img/img/home-filler.jpeg") center/cover fixed no-repeat;
+    /* background-image: url(./img/img/home-filler.jpeg);
+    background-color: rgba(4, 14, 31, 0.9);
+    background-position-y: 80%;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+    width: 100%;
+    height: 350px;
+    text-align: center;
+}
+
+.presentoirs {
+    text-align: center;
+}
+
+.presentoirs>img {
+    height: 10em;
+    width: 12em;
+    margin: 10px;
+}
+
+.imagesprod div img {
+    background-color: rgb(229, 229, 229);
+    width: 15em;
+    height: 12em;
+    padding: 2em;
+    margin: 5% 5%;
+}
+
+.imagesprod div p {
+    text-align: center;
+}
+
+.newsletter form div i {
+    border: 1px solid grey;
+    background-color: grey;
+    padding: 10px;
+}
+
+.newsletter form input {
+    height: 40px;
+    margin: 0;
+}
+
+.produits {
+    text-align: center;
+}
+
+.newsletter {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.menu a:hover {
+    border-bottom: 1px solid rgb(253, 190, 2);
+}
+
+.navbar-toggler-icon {
+    color: rgb(253, 190, 2);
+}
+
+.icones i {
+    border-radius: 50%;
+    font-size: 2rem;
+    background-color: grey;
+    color: rgb(253, 190, 2);
+    padding: 1.5rem;
+    margin-bottom: 5%;
+}
+
+.tetepied {
+    background-color: black;
+    padding: 1% 3%;
+}
+
+.tetepied h4 {
+    color: white;
+}
+
+.tetepied p {
+    color: rgb(229, 229, 229);
+}
+
+.tetepied div>i {
+    font-size: 1.5em;
+    margin-right: 0.5em;
+    margin-top: 0.2em;
+}
+
+.bg-pied {
+    background-color: rgb(51, 51, 51);
+}
+
+.corpspied>h1 {
+    border: 2px solid rgb(253, 190, 2);
+    color: rgb(253, 190, 2);
+}
+
+.corpspied p {
+    color: rgb(229, 229, 229);
+}
+
+i {
+    color: rgb(253, 190, 2);
+}
+
+h2 {
+    font-weight: 600;
+}
+
+.contact a {
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+span {
+    text-decoration: 2px underline rgb(253, 190, 2);
+}
+
+.banniereproduct {
+    background: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("./img/img/pageBcg/productsBcg.jpeg") center/cover fixed no-repeat;
+    text-align: center;
+    height: 450px;
+    padding: 1em;
+}
+
+.bannieresingle {
+    background: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("./img/img/pageBcg/singleBcg.jpeg") center/cover fixed no-repeat;
+    text-align: center;
+    height: 450px;
+    padding: 1em;
+}
+
+.bannierestore {
+    background: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("./img/img/pageBcg/storeBcg.jpeg") center/cover fixed no-repeat;
+    text-align: center;
+    height: 450px;
+    padding: 1em;
+    padding: 1em;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul {
+    margin-left: 0px;
+}
+
+.choiceproduct {
+    padding: 2%;
+    margin: 0;
+}
+
+.choiceproduct h4 {
+    font-size: medium;
+}
+
+.paragraphesingle {
+    background-color: rgb(233, 236, 239)
+}
+
+a {
+    color: black;
+}
+
+.imagerep {
+    background-image: url(./img/img/img-products/product-1.png);
+    height: 3rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: contain;
+    opacity: 0.5;
+}
+
+.mainstore div img {
+    width: 6em;
+    height: 5em;
+}
+
+.bordure {
+    border-bottom: 1px solid grey;
+}
+
+.ico {
+    font-size: xx-large;
+    color: black;
+}
+
+.deux {
+    background-color: rgb(253, 190, 2);
+    color: white;
+    border-radius: 100%;
+    padding: 0.1em 0.5em;
+    position: absolute;
+    top: 12px;
+    right: 5px;
+    font-size: small;
+}
